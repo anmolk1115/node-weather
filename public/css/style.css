@@ -1,0 +1,56 @@
+body {
+    padding: 0 16px;
+    margin: 0 auto;
+    max-width: 700px;
+    background-image: url('../img/pattern.png');
+    /* background-size: cover; */
+    background-repeat: repeat;    
+}
+
+footer {
+    /* background-color: blue; */
+    color: red;
+    padding: 20px;
+    margin: 15px;
+    border-top: 1px solid #eeeeee;
+    position: absolute;
+    bottom: 0;
+}
+
+header {
+    margin: 20px 0 50px 0;
+    font-size: 1.5rem;
+}
+
+header a {
+    margin-right: 15px;
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.search-btn {
+    background: #f4c613;
+    color: #fff;
+    border: 1px solid palegreen;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.place-input {
+    padding: 8px;
+    border: 1px solid #333333;
+    text-transform: capitalize;
+}
+
+.message1 {
+    font-size: 1.5rem;
+    font-style: italic;
+    text-shadow: 3px 3px 3px #f4c613;
+}
+
+.message2 {
+    font-size: 1.3rem;
+    font-style: italic;
+    font-stretch: condensed;
+    text-shadow: 3px 3px 3px #f4c613;    
+}
