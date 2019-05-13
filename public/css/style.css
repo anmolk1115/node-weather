@@ -54,3 +54,8 @@ header a {
     font-stretch: condensed;
     text-shadow: 3px 3px 3px #f4c613;    
 }
+@media only screen and (min-device-width: 768px) {
+    /* .footer-name {
+        font-size: 25px;
+    } */
+}
