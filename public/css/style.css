@@ -54,8 +54,12 @@ header a {
     font-stretch: condensed;
     text-shadow: 3px 3px 3px #f4c613;    
 }
-@media only screen and (min-device-width: 768px) {
+@media only screen and (max-width: 768px) {
     /* .footer-name {
         font-size: 25px;
     } */
+    .message1,
+    .message2 {
+        font-size: 14px;
+    }
 }
